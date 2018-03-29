@@ -1,0 +1,29 @@
+.flex-container {
+   display:flex;
+   /* justify-content: space-around;
+   align-items: center; */
+   flex-direction: row;
+   background-color:black;
+   opacity: 0.8;
+    
+}
+
+.flex-item {
+    display:flex;
+    flex-direction: column; 
+    color:white;
+    padding: 1rem;
+
+
+}
+
+.item {
+    padding: 0.3rem;
+    font-size:25px;
+}
+.information {
+    padding:10px;
+}
+body {
+    background-image: url("image/2.jpg");
+}
